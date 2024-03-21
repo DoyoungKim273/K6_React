@@ -5,7 +5,7 @@ function Hello() {
     let n = Math.floor(Math.random() * 99) + 1;
 
     const st1 = {
-        backgroundColor: "darkblue", color: "white"
+        backgroundColor: "blue", color: "white"
     }
 
     let x;
@@ -13,7 +13,7 @@ function Hello() {
     
     return(
         <h1>
-            <p>
+            <p className="text-lg flex flex-col items-center justify-center bg-red-500 text-white">
                 {currentTime.toLocaleTimeString()}
             </p>
             <span style={st1}>Hello</span>
@@ -21,13 +21,13 @@ function Hello() {
                 {n < 10? `0${n}` : n} 
             </span>
 
-            {n % 2 === 0? "짝수" : "홀수"}
+            {/* {n % 2 === 0? "짝수" : "홀수"} */}
             {n % 2 === 0?
-            <span style={{color:'red'}}>짝수</span>
+            <span style={{color:'orange'}}>짝수</span>
             :<span style={{color:'blue'}}>홀수</span>}
             {n % 2 === 0 && "🧡🧡"}
             {n % 2 === 1 && "💙💙"}
-            <p>{x || "x는 undefineded입니다."}</p>
+            <p className="flex flex-col justify-center items-center">{x || "x는 undefineded입니다."}</p>
         </h1>
 
     );

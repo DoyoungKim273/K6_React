@@ -1,6 +1,8 @@
 import './App.css';
 import { FaHome } from "react-icons/fa";
 import Hello from "./01/Hello";
+// import MainHeader from './01/MainHeader';
+import MyClock from './01_1/MyClock';
 
 function App() {
 
@@ -11,7 +13,9 @@ function App() {
         <div><FaHome className='text-2xl text-black'/></div>
       </header>
       <main className='grow flex flex-col justify-center items-center'>
+        {/* <MainHeader /> */}
         <Hello />
+        <MyClock />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.
