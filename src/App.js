@@ -3,6 +3,7 @@ import { FaHome } from "react-icons/fa";
 import Hello from "./01/Hello";
 // import MainHeader from './01/MainHeader';
 import MyClock from './01_1/MyClock';
+import HelloCss from './02/HelloCss';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <main className='grow flex flex-col justify-center items-center'>
         {/* <MainHeader /> */}
         <Hello />
-        <MyClock />
+        {/* <MyClock /> */}
+        <HelloCss />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.

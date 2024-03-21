@@ -1,0 +1,15 @@
+.hellomain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imglogo{
+    width: 400px;
+    height: 400px;
+}
+
+.ch1{
+    color: cyan;
+}
