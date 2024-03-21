@@ -1,4 +1,5 @@
-import "./Hello.css";
+import "./Hello.css"; 
+// 안 나오면 내가 쓰면 됨(겁 먹지 말기!!! 에러를 많이 내야 실력이 빨리 는다!)
 
 function Hello() {
     let n = Math.floor(Math.random() * 99) + 1;
@@ -17,7 +18,7 @@ function Hello() {
             </p>
             <span style={st1}>Hello</span>
             <span style={{display:"inline-flex", margin:"10px"}}>
-                {n < 10? '0${n}' : n}
+                {n < 10? `0${n}` : n} 
             </span>
 
             {n % 2 === 0? "짝수" : "홀수"}
