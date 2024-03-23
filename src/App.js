@@ -1,9 +1,10 @@
 import './App.css';
 import { FaHome } from "react-icons/fa";
 import Hello from "./01/Hello";
-// import MainHeader from './01/MainHeader';
+import MainHeader from './01/MainHeader';
 import MyClock from './01_1/MyClock';
 import HelloCss from './02/HelloCss';
+import MyDiv1 from './03/MyDiv1';
 
 function App() {
 
@@ -15,9 +16,10 @@ function App() {
       </header>
       <main className='grow flex flex-col justify-center items-center'>
         {/* <MainHeader /> */}
-        <Hello />
+        {/* <Hello /> */}
         {/* <MyClock /> */}
-        <HelloCss />
+        {/* <HelloCss /> */}
+        <MyDiv1 />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.
