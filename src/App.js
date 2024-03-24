@@ -6,6 +6,7 @@ import MyClock from './01_1/MyClock';
 import HelloCss from './02/HelloCss';
 import MyDiv1 from './03_1/MyDiv1';
 import MyListMain from './04/MyListMain';
+import BoxOfficeTb from './05/BoxOfficeTb';
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
         {/* <HelloCss /> */}
         {/* <MyDiv1 /> */}
         {/* <MyDiv1 /> */}
-        <MyListMain />
+        {/* <MyListMain /> */}
+        <BoxOfficeTb />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.
