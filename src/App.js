@@ -6,13 +6,14 @@ import MyClock from './01_1/MyClock';
 import HelloCss from './02/HelloCss';
 import MyDiv1 from './03_1/MyDiv1';
 import MyListMain from './04/MyListMain';
-import BoxOfficeTb from './05/BoxOfficeTb';
+// import BoxOfficeTb from './05/BoxOfficeTb';
+import BoxOfficeTb from './05_1/BoxOfficeTb';
 
 function App() {
 
   return (
     <div className='flex flex-col w-full max-w-screen-xl h-screen mx-auto overscroll-y-auto'>
-      <header className='flex justify-between items-center h-20 p-10 text-xl font-bold text-blue-800 bg-slate-200'>
+      <header className='flex justify-between items-center h-20 p-10 text-xl font-bold text-black bg-slate-200'>
         <div>React 실습</div>
         <div><FaHome className='text-2xl text-black'/></div>
       </header>
@@ -24,6 +25,7 @@ function App() {
         {/* <MyDiv1 /> */}
         {/* <MyDiv1 /> */}
         {/* <MyListMain /> */}
+        {/* <BoxOfficeTb /> */}
         <BoxOfficeTb />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>

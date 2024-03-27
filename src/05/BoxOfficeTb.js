@@ -26,8 +26,8 @@ export default function BoxOfficeTb() {
                                 bg-blue-900 text-white text-sm'>{item.rank}</span>
             </td>
             <td>{item.movieNm}</td>
-            <td className='text-right'>{parseInt(item.salesAmt).toLocaleString}</td>
-            <td className='text-right'>{parseInt(item.audiAcc).toLocaleString}</td>
+            <td className='text-right'>{parseInt(item.salesAmt).toLocaleString()}원</td>
+            <td className='text-right'>{parseInt(item.audiAcc).toLocaleString()}명</td>
             <td className='pt-3 flex justify-center items-center'>
                 {parseInt(item.rankInten) === 0? <CgLoadbar /> 
                 : parseInt(item.rankInten) > 0 ?  <FaArrowUp className='text-red-600'/>
