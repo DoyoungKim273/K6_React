@@ -6,8 +6,9 @@ import MyClock from './01_1/MyClock';
 import HelloCss from './02/HelloCss';
 import MyDiv1 from './03_1/MyDiv1';
 import MyListMain from './04/MyListMain';
-// import BoxOfficeTb from './05/BoxOfficeTb';
-import BoxOfficeTb from './05_1/BoxOfficeTb';
+import BoxOfficeTb from './05/BoxOfficeTb';
+// import BoxOfficeTb from './05_1/BoxOfficeTb';
+import Lotto from './06/Lotto';
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
         {/* <MyDiv1 /> */}
         {/* <MyListMain /> */}
         {/* <BoxOfficeTb /> */}
-        <BoxOfficeTb />
+        {/* <BoxOfficeTb /> */}
+        <Lotto />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.
