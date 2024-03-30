@@ -9,6 +9,7 @@ import MyListMain from './04/MyListMain';
 import BoxOfficeTb from './05/BoxOfficeTb';
 // import BoxOfficeTb from './05_1/BoxOfficeTb';
 import Lotto from './06/Lotto';
+import FoodMain from './07/FoodMain';
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
         {/* <MyListMain /> */}
         {/* <BoxOfficeTb /> */}
         {/* <BoxOfficeTb /> */}
-        <Lotto />
+        {/* <Lotto /> */}
+        <FoodMain />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.
