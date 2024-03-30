@@ -2,7 +2,7 @@ import './App.css';
 import { FaHome } from "react-icons/fa";
 import Hello from "./01/Hello";
 import MainHeader from './01/MainHeader';
-import MyClock from './01_1/MyClock';
+import MyClock from './08/MyClock';
 import HelloCss from './02/HelloCss';
 import MyDiv1 from './03_1/MyDiv1';
 import MyListMain from './04/MyListMain';
@@ -30,7 +30,8 @@ function App() {
         {/* <BoxOfficeTb /> */}
         {/* <BoxOfficeTb /> */}
         {/* <Lotto /> */}
-        <FoodMain />
+        {/* <FoodMain /> */}
+        <MyClock />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.
