@@ -1,19 +1,24 @@
-import React, { useEffect } from "react";
+import React from "react";
+import TailButton from "../UI/TailButton";
 
-export default function TrafficNav() {
-  const getDataFetch = (url) => {
-    fetch(url)
-      .then((resp) => resp.json())
-      .then((data) => setTdata(data.data))
-      .catch((err) => console.log(err));
+export default function TrafficNav({ title, category, sel, setSel }) {
+  const handleBtClick = (item) => {
+    setSel(item);
   };
 
-  useEffect(() => {
-    let url = `https://api.odcloud.kr/api/15070282/v1/uddi:00e5cb5a-ecdf-4190-a499-ba3a6b2a8db9?`;
-    url = `${url}page=1&perPage=20&`;
-    url = `${url}serviceKey=${process.env.REACT_APP_MV_API}`;
+  const bts = category.map((item) => (
+    <TailButton
+      caption={item}
+      color={item === sel ? "red" : "blue"}
+      key={item}
+      handleClick={() => handleBtClick(item)}
+    />
+  ));
 
-    console.log(url);
-  });
-  return <div>TrafficNav</div>;
+  return (
+    <div className="w-11/12 flex justify-between items-center">
+      <h1 className="text-xl font-bold">교통사고 {title}</h1>
+      <div className="flex justify-between h-15">{bts}</div>
+    </div>
+  );
 }

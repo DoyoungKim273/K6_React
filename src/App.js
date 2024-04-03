@@ -10,6 +10,8 @@ import BoxOfficeTb from './05/BoxOfficeTb';
 // import BoxOfficeTb from './05_1/BoxOfficeTb';
 import Lotto from './06/Lotto';
 import FoodMain from './07/FoodMain';
+import TrafficNav from './09/TrafficNav';
+import TrafficMain from './09/TrafficMain';
 
 function App() {
 
@@ -31,7 +33,8 @@ function App() {
         {/* <BoxOfficeTb /> */}
         {/* <Lotto /> */}
         {/* <FoodMain /> */}
-        <MyClock />
+        {/* <MyClock /> */}
+        <TrafficMain />
       </main>
       <footer className='flex justify-center items-center h-20 bg-slate-800 text-base text-white'>
         ⓒ 2024 Doyoung Kim. All right reserved.
