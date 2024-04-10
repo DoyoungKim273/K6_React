@@ -15,6 +15,7 @@ import TrafficMain from "./09/TrafficMain";
 import RefInput from "./10/RefInput";
 import RefVal from "./10/RefVal";
 import GalleryMain from "./11/GalleryMain";
+import Festival from "./12/Festival";
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
         {/* <TrafficMain /> */}
         {/* <RefInput /> */}
         {/* <RefVal /> */}
-        <GalleryMain />
+        {/* <GalleryMain /> */}
+        <Festival />
       </main>
       <footer className="flex justify-center items-center h-20 bg-slate-800 text-base text-white">
         ⓒ 2024 Doyoung Kim. All right reserved.
