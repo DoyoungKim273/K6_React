@@ -16,7 +16,7 @@ import RefInput from "./10/RefInput";
 import RefVal from "./10/RefVal";
 import GalleryMain from "./11/GalleryMain";
 import Festival from "./12/Festival";
-
+import RouteMain from "./13/RouteMain";
 function App() {
   return (
     <div className="flex flex-col w-full max-w-screen-xl h-screen mx-auto overscroll-y-auto">
@@ -43,7 +43,8 @@ function App() {
         {/* <RefInput /> */}
         {/* <RefVal /> */}
         {/* <GalleryMain /> */}
-        <Festival />
+        {/* <Festival /> */}
+        <RouteMain />
       </main>
       <footer className="flex justify-center items-center h-20 bg-slate-800 text-base text-white">
         ⓒ 2024 Doyoung Kim. All right reserved.
